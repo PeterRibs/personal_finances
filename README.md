@@ -27,9 +27,9 @@ As bases se relacionam por meio de identificadores.
 
 Todos os dados disponibilizados são fictícios.
 
-#### DataFrame "df_account"
+#### DataFrame "account"
 - `id`: O identificador único da conta.
-- `type`: O tipo da conta, BANK ou CREDT.
+- `type`: O tipo da conta (BANK ou CREDT).
 - `subtype`: A subcategoria da conta (SAVINGS_ACCOUNT, CREDI_CARD ou CHECKING_ACCOUNT).
 - `balance`: O saldo atual da conta.
 - `currency_code`: O código da moeda usada na conta (BRL).
@@ -38,12 +38,12 @@ Todos os dados disponibilizados são fictícios.
 - `account_id`: O identificador único da conta.
 - `date`: A data associada ao saldo.
 
-#### DataFrame "df_person"
+#### DataFrame "person"
 - `id`: O identificador único da pessoa.
 - `name`: O nome da pessoa.
 - `suitability`: A adequação ou perfil de investimento da pessoa (Agressivo, Conservador, Moderado-agressivo, Moderado, Moderado-conservador).
 
-#### DataFrame "df_transactions"
+#### DataFrame "transactions"
 - `id`: O identificador único da transação.
 - `currency_code`: O código da moeda da transação (BRL).
 - `amount`: O valor da transação.
